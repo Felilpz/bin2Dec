@@ -26,28 +26,28 @@
                 <h2>Bin to Dec</h2>
                 <form>
                     <p>
-                        <input type="number" name="bin2decName" id="bin2dec" placeholder="Digite em BINÁRIO" required>
+                        <input type="number" id="bin2dec" placeholder="Digite em BINÁRIO" required>
                     </p>
-                    <button type="submit" onclick="paraDecimal()">
+                    <button type="button" onclick="paraDecimal()">
                         Converter
                     </button>
+                    <div id="pegarAqui">
+                        <p class="convert">Números convertidos de BINÁRIO <strong>PARA DECIMAL</strong></p>
+                    </div>
                 </form>
-                <div class="pegarAqui">
-                    <p class="convert">Números convertidos de BINÁRIO para <strong>DECIMAL</strong></p>
-                </div>
             </div>
             <div class="block two">
                 <h2>Dec to Bin</h2>
                 <form>
                     <p>
-                        <input type="number" name="dec2binName" id="dec2bin" placeholder="Digite em DECIMAL" required>
+                        <input type="number" id="dec2bin" placeholder="Digite em DECIMAL" required>
                     </p>
-                    <button type="submit" onclick="paraBinario()">
+                    <button type="button" onclick="paraBinario()">
                         Converter
                     </button>
                 </form>
-                <div class="pegarAqui">
-                    <p class="convert">Números convertidos de DECIMAL para <strong>BINÁRIO</strong></p>
+                <div id="pegarAqui2">
+                    <p class="convert">Números convertidos de DECIMAL <strong> PARA BINÁRIO</strong></p>
                 </div>
             </div>
         </div>
